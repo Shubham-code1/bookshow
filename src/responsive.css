@@ -1,0 +1,216 @@
+/* Responsive css for screen size less than 1200px; */
+
+@media screen and (max-width: 800px) {
+  .slider-part {
+    width: 100%;
+  }
+  .display-part {
+    width: 100%;
+  }
+  .movie-seats {
+    width: 32%;
+  }
+  .movie-slots {
+    width: 22%;
+  }
+  .last-booking {
+    margin-top: 15px;
+  }
+  .loading{
+    width:30%;
+    top:35%;
+    left:32%;
+  }
+  .logo-im{
+    background-size:contain !important;
+}
+
+}
+
+/* Responsive css for screen size less than 700px; */
+@media screen and (max-width: 700px) {
+  .slider-part {
+    width: 100vw;
+  }
+  .display-part {
+    width: 100vw;
+  }
+  .header {
+    width: 100vw;
+  }
+  .loading{
+    width:30%;
+    top:35%;
+    left:32%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .loading{
+    width:50%;
+    top:35%;
+    left:16%;
+  }
+  .main-blinker{
+    width:10vw;
+    height:215vh;
+  }
+}
+
+@media screen and (max-width: 990px){
+  .spinner {
+    width: 30px;
+    height: 30px;
+  }
+  .wm h3{
+    font-size: 16px;
+  }
+  .wm-h4{
+    font-size: 12px;
+  }
+}
+
+
+/* Responsive css for screen size less than 400px; or for mobile device */
+@media screen and (max-width: 400px) {
+  .main-mb{
+    flex-direction: column-reverse;
+}
+.movie-book{
+  width:80%;
+}
+.wait-main{
+  width:100%;
+  margin-top:20px;
+}
+.wait-msg{
+  margin-left: 10px;
+}
+.main {
+    padding-left: 15px;
+  }
+.movie-details {
+    flex-direction: column;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+.movie-name {
+    width: 100vw;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .movie-slots {
+    width: 100vw;
+    margin: auto;
+    margin-top: 12px;
+  }
+  .img-holder {
+    height: 180px;
+  }
+  .movie-seats {
+    width: 100vw;
+    margin: auto;
+    margin-top: 12px;
+  }
+  [type="number"] {
+    padding: 5px 15px;
+  }
+  .movie-slot-date {
+    flex-direction: column;
+    align-items: center;
+  }
+  .msd-child {
+    width: 96%;
+    margin-top: 8px;
+  }
+  .msd-child h3,
+  .sb-heading {
+    color: rgb(244, 248, 7);
+  }
+  .msd-child h4 {
+    color: white;
+  }
+  .select-loc {
+    display: none;
+  }
+  .last-booking {
+    width:100vw;
+  }
+  .slider {
+    width:100vw;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+  }
+  .img-holder{
+    height:230px;
+  }
+  .movie-book {
+    margin: 38px 0;
+  }
+  .header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    height: 70px !important;
+  }
+
+  .main {
+    margin-top: 70px !important;
+  }
+
+  .btn-search {
+    display: none;
+  }
+
+  .left-header {
+    width: 70% !important;
+  }
+
+  .right-header {
+    width: 30% !important;
+    justify-content: flex-start !important;
+  }
+
+  .left-header-logo {
+    width:70px !important;
+  }
+
+  .left-header-ip {
+      width: 60%;
+  }
+
+  .left-header-logo img {
+      width: 100px;
+  }
+
+  .sign-in button {
+    background-color: red;
+    padding: 7px 0px;
+    font-size: 10px;
+    width: 60px;
+  }
+
+  [type="text"] {
+    background-color: rgb(71, 67, 67);
+    border: none;
+    border-radius: 5px !important;
+    color: white;
+  }
+
+  .hp-small {
+    font-size: 12px !important;
+    margin-top: 6px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
