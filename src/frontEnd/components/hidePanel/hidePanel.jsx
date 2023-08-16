@@ -8,13 +8,14 @@ import { RxCross2 } from "react-icons/rx";
 
 
 
-
+//handleHide is object destructuring the object
 function HidePanel({handleHide}){
-
+//sending data as argument through handleHide function which is coming as props 
   const handleChange = ()=>{
        handleHide(false)
   }
 
+  //function to remove localstorage data 
   const removeLocal = ()=>{
     localStorage.removeItem("movieDetails");
     window.location.reload();
@@ -27,12 +28,12 @@ function HidePanel({handleHide}){
 
                     <li className="hidden-head">
                         <div>Hey!</div>
+                        {/* when clicked false will sent as argument to handleHide function present in NavBar component.This will set the setPanel Value as false and thus causing HidePanel to disappear from screen */}
                         <button className="cross" onClick={handleChange}><RxCross2/></button>
                     </li>
 
                     <li className="hidden-login">
                           <div className="h-log-img">
-                            {/* <img src={"../assets/rewards.jpg"} alt="n/a"/> */}
                             </div>
                           <div><h5>Unlock special offers & great benefits</h5></div>
                           <div><button>Login/Register</button></div>
@@ -119,7 +120,7 @@ function HidePanel({handleHide}){
                             <div><IoIosArrowForward/></div>
                         </div>
                     </li>
-
+            {/* here stored data in localstorage can be removed just to check in absence of localStorage data no previous booking available message is appearing. */}
                     <button className="notification xb" onClick={removeLocal}>
                         <div className="noti-icon"><AiFillDelete/></div>
                         <div className="notification-content">

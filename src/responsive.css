@@ -16,18 +16,18 @@
   .last-booking {
     margin-top: 15px;
   }
-  .loading{
-    width:30%;
-    top:35%;
-    left:32%;
+  .loading {
+    width: 30%;
+    top: 35%;
+    left: 32%;
   }
-  .logo-im{
-    background-size:contain !important;
-}
-
+  .logo-im {
+    background-size: contain !important;
+  }
 }
 
 /* Responsive css for screen size less than 700px; */
+
 @media screen and (max-width: 700px) {
   .slider-part {
     width: 100vw;
@@ -38,63 +38,67 @@
   .header {
     width: 100vw;
   }
-  .loading{
-    width:30%;
-    top:35%;
-    left:32%;
+  .loading {
+    width: 30%;
+    top: 35%;
+    left: 32%;
   }
 }
 
+/* rrsponsive css for screen size less than 500px */
 @media screen and (max-width: 500px) {
-  .loading{
-    width:50%;
-    top:35%;
-    left:16%;
+  .loading {
+    width: 50%;
+    top: 35%;
+    left: 16%;
   }
-  .main-blinker{
-    width:10vw;
-    height:215vh;
+  .main-blinker {
+    width: 10vw;
+    height: 215vh;
   }
 }
 
-@media screen and (max-width: 990px){
+/* responsive css for screem size less than 990px */
+
+@media screen and (max-width: 990px) {
   .spinner {
     width: 30px;
     height: 30px;
   }
-  .wm h3{
+  .wm h3 {
     font-size: 16px;
   }
-  .wm-h4{
+  .wm-h4 {
     font-size: 12px;
   }
 }
 
-
 /* Responsive css for screen size less than 400px; or for mobile device */
+
+
 @media screen and (max-width: 400px) {
-  .main-mb{
+  .main-mb {
     flex-direction: column-reverse;
-}
-.movie-book{
-  width:80%;
-}
-.wait-main{
-  width:100%;
-  margin-top:20px;
-}
-.wait-msg{
-  margin-left: 10px;
-}
-.main {
+  }
+  .movie-book {
+    width: 80%;
+  }
+  .wait-main {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .wait-msg {
+    margin-left: 10px;
+  }
+  .main {
     padding-left: 15px;
   }
-.movie-details {
+  .movie-details {
     flex-direction: column;
     padding: 0px;
     box-sizing: border-box;
   }
-.movie-name {
+  .movie-name {
     width: 100vw;
     margin: auto;
     box-sizing: border-box;
@@ -134,16 +138,16 @@
     display: none;
   }
   .last-booking {
-    width:100vw;
+    width: 100vw;
   }
   .slider {
-    width:100vw;
+    width: 100vw;
     margin: 0;
     padding: 0;
     margin: auto;
   }
-  .img-holder{
-    height:230px;
+  .img-holder {
+    height: 230px;
   }
   .movie-book {
     margin: 38px 0;
@@ -174,15 +178,15 @@
   }
 
   .left-header-logo {
-    width:70px !important;
+    width: 70px !important;
   }
 
   .left-header-ip {
-      width: 60%;
+    width: 60%;
   }
 
   .left-header-logo img {
-      width: 100px;
+    width: 100px;
   }
 
   .sign-in button {
@@ -204,13 +208,3 @@
     margin-top: 6px !important;
   }
 }
-
-
-
-
-
-
-
-
-
-

@@ -2,7 +2,7 @@
 
 function Spinner(){
     return (<>
-           
+           {/* Spinner with waiting messages will appear on screen beside reset button while user clicks to book the movie. it will be present till movieData is successfully saved to database and response data is set to localstorage.*/}
            <div className="wait-main">
                                     <div className="wait-msg">
                                             <div className="spinner"></div>
